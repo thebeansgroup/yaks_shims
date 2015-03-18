@@ -1,0 +1,27 @@
+{
+  "name": "yaks_shims",
+  "version": "0.0.0",
+  "description": "Adds ES5 support to IE8 for the Yaks framework",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebeansgroup/yaks_shims.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebeansgroup/yaks_shims/issues"
+  },
+  "homepage": "https://github.com/thebeansgroup/yaks_shims"
+}
