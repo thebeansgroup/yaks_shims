@@ -1,6 +1,6 @@
 {
   "name": "yaks_shims",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Adds ES5 support to IE8 for the Yaks framework",
   "main": "index.js",
   "dependencies": {},
