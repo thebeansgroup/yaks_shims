@@ -8,7 +8,13 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/*.js',
+        src: [
+            'src/eventListener.polyfill.js',
+            'src/es5-shim.js',
+            'src/es5-sham.js',
+            'src/console-polyfill.js',
+            'src/html5shiv.js'
+        ],
         dest: 'index.js'
       }
     }
