@@ -9,10 +9,10 @@ module.exports = function(grunt) {
       },
       build: {
         src: [
+            'src/console-polyfill.js',
             'src/eventListener.polyfill.js',
             'src/es5-shim.js',
             'src/es5-sham.js',
-            'src/console-polyfill.js',
             'src/html5shiv.js'
         ],
         dest: 'index.js'
